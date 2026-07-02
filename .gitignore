@@ -1,0 +1,57 @@
+# NumPy
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker / linter caches
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+
+# Generated simulation outputs
+output/
+results/
+frames/
+exports/
+
+# If you save checkpoints or recordings
+checkpoints/
