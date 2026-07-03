@@ -1,8 +1,8 @@
 import numpy as np
 from physics_sim import run_trajectory
 
-NUM_TRAJECTORIES = 30000       # number of separate ball drops to simulate
-STEPS_PER_TRAJECTORY = 400   # number od frames each trajectory runs for
+NUM_TRAJECTORIES = 300       # number of separate ball drops to simulate
+STEPS_PER_TRAJECTORY = 300   # number of frames each trajectory runs for
 rng = np.random.default_rng()
 
 def random_initial_state():
@@ -43,6 +43,7 @@ if __name__ == "__main__":
     print(f"Generated dataset shape: {dataset.shape}")
     # dataset has the shape (NUM_TRAJECTORIES, STEPS_PER_TRAJECTORY, 4)
     # example. (300, 150, 4) — 300 trajectories, 150 frames each, 4 numbers per frame
+    print(dataset)
 
     np.save("trajectories.npy", dataset)
     print("Saved to trajectories.npy")
