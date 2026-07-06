@@ -1,7 +1,7 @@
 import numpy as np
 from physics_sim import run_trajectory
 
-NUM_TRAJECTORIES = 300       # number of separate ball drops to simulate
+NUM_TRAJECTORIES = 3000       # number of separate ball drops to simulate
 STEPS_PER_TRAJECTORY = 300   # number of frames each trajectory runs for
 rng = np.random.default_rng()
 
