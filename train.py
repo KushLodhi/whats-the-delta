@@ -4,8 +4,8 @@ import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
 from model import PhysicsMLP
 
-EPOCHS = 50
-BATCH_SIZE = 256
+EPOCHS = 100
+BATCH_SIZE = 300
 LEARNING_RATE = 1e-3
 
 
