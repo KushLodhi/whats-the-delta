@@ -53,7 +53,7 @@ if __name__ == "__main__":
     
     import matplotlib.pyplot as plt
 
-    initial_state = np.array([2.0, 5.0, 3.687, -5.234])
+    initial_state = np.array([0.0, 5.0, 0.0, 0.0])
     trajectory = run_trajectory(initial_state, num_steps=500) #trajectory  has shape (numsteps+1, 4)
 
     heights = trajectory[:, 1]  # y-coordinate over time
