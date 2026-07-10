@@ -57,5 +57,8 @@ exports/
 checkpoints/
 
 testing.py
+test_combinations.py
 
 *.pt
+
+rollout_tests/
