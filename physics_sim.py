@@ -37,7 +37,7 @@ def run_trajectory(initial_state, num_steps):
     """
     Runs the simulator forward for num_steps frames, starting from initial_state.
 
-    Returns: numpy array of shape (num_steps, 4). The full history of states, one row per frame.
+    Returns: numpy array of shape (num_steps, 4).
     """
     trajectory = [initial_state]
     state = initial_state
